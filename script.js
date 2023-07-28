@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
       const gridContainer = document.querySelector(".grid-container");
       
       // Create 6 block elements and add them to the grid container
@@ -7,3 +7,4 @@
         blockElement.classList.add("block");
         gridContainer.appendChild(blockElement);
       }
+    });
