@@ -1,9 +1,12 @@
-/*  your css code here. If applicable */
-.block {
-      width: 100px;
+.grid-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .block {
+      width: calc(33.33% - 2px); /* To account for the border */
       height: 100px;
       background-color: #f2f2f2;
       border: 1px solid #ccc;
-      display: inline-block;
       box-sizing: border-box;
     }
